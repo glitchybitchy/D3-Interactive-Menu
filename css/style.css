@@ -1,0 +1,223 @@
+/******Colours******/
+/*
+
+light gray:	#F8F6F1
+medium gray: #AEACA9
+dark gray: #323130
+red: #CF2900
+
+
+*/
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+}
+
+.clearfix:before, .clearfix:after {
+  content:"";
+  display:table;
+}
+
+.clearfix:after{
+  clear:both;
+}
+
+
+
+#logo{
+
+	width:100px;
+	height:auto;
+	position:absolute;
+	top: 40px;
+	margin-left: 30px;
+}
+
+
+h1{
+
+	font-family: "NexaBlackItalic", Helvetica, sans-serif;
+	font-size: 80px;
+	color: white;
+	line-height: 500px;
+	z-index: 0;
+	margin-left: 30px;
+	transition: margin 0.5s;
+	-webkit-transition: margin 0.5s;
+
+	
+}
+
+
+h2{
+
+	font-family: "Nexa", Helvetica, sans-serif;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	margin: 50px 0 0 0;
+	padding-left: 2%;
+	color: #CF2900;
+}
+
+
+h3{
+
+	font-family: "NexaBlackItalic", Helvetica, sans-serif;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+#canvas-holder{
+
+font-family: "Nexa", Helvetica, sans-serif;
+font-size: 12px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)
+
+}
+
+
+
+.project-name-container {
+
+
+	position: absolute;
+	z-index: 0;
+	width:100%;
+	top: 0;
+	left:0;
+	
+	text-align: center;
+
+}
+
+
+.main-container{
+
+
+	transition: margin 0.5s;
+	-webkit-transition: margin 0.5s;
+
+}
+
+.margin-adjust{
+
+	margin-left: 120px;
+	transition: margin 0.5s;
+	-webkit-transition: margin 0.5s;
+}
+
+
+
+h4 a{
+
+	
+	line-height: 2;
+	text-decoration: none;
+
+	font-family: "Nexa", Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-variant: small-caps;
+	color: white;
+
+}
+
+
+
+footer{
+
+	background-color: #AEACA9;
+	/*margin: 0 auto;*/
+	padding: 10px 40px; 
+	font-family: "NexaThin", Helvetica, sans-serif;
+	font-size: 0.75em;
+	color: #F8F6F1;
+	display: block;
+	width:100%;
+	text-align: center;
+
+}
+
+#main-page-footer{
+
+	position: absolute;
+	bottom:0;
+}
+
+
+
+span {
+
+	font-family: "Nexa", Helvetica, sans-serif;
+}
+
+
+
+/****Keywords****/
+
+#keywords{
+
+	padding-top: 30px;
+	
+	font-family: "Nexa", Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #323130;
+	clear:both;
+
+}
+
+#keywords a{
+
+	color: #323130;
+}
+
+/****************/
+
+
+
+/*Index info box*/
+
+.info-box{
+
+	width: 240px;
+	height: 18px;
+	overflow: hidden;
+	position: absolute;
+	right:30px;
+	top: 60px;
+	font-size: 10px;
+	text-align: right;
+
+}
+
+.show-box{
+
+	height: auto;
+}
+
+#info-button{
+
+	font-family: "NexaBlackItalic", Helvetica, sans-serif;
+	font-size: 18px
+	line-height: 1.5;
+	color: #AEACA9;
+	cursor: pointer;
+	
+}
+/*********************/
+
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
+
+
